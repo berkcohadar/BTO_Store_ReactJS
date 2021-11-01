@@ -14,7 +14,9 @@ const Fashion = () => {
     return (
         <>
            <Header/>
+           <Banner/>
            <HotProduct/>
+           <Footer/>
         </>
     )
 }

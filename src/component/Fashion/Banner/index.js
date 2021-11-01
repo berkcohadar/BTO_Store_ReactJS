@@ -1,18 +1,27 @@
 import React from 'react'
-import BanImg from '../../../assets/img/common/man.png'
-import { Link } from 'react-router-dom'
+import img1 from '../../../assets/img/main/main_page.JPG'
 
 const Banner = () => {
-    return (
-        <>
-            <div className="container bto-banner">
-                <div className="row">
-                    <img src={"https://images.unsplash.com/photo-1602523961358-f9f03dd557db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80 "}></img>
-                </div>
-            </div>
-        </>
-   
-    )
-}
 
-export default Banner
+    const bannerItem =
+        {
+            id: 0,
+            alt: 'Candles',
+            description:'At BTO STORE, we believe that your home should reflect your personal style. Like your life, every corner of your home should be eye-catching and unique. ',
+            category:"Candles"
+        };
+
+    return (
+        <div className="ps-home-banner ps-home-banner--1">
+            <div className="ps-container" style={{ display: 'block' }}>
+                                    <img className="ps-img" src={img1} alt={bannerItem.alt} />
+                                    <section><p>Shop Now</p></section>
+
+            </div>
+            <div className="ps-alttext">
+            <p>{bannerItem.description}</p>
+            </div>
+        </div>
+    );
+};
+export default Banner;
