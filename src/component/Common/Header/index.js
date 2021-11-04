@@ -340,7 +340,7 @@ const Header = () => {
                             <Link to="/"><img src={logoWhite} alt="img" /></Link>
                         </div>
                         <address className="address">
-                            <span>Address: 502 Cougar Village Apartment Edwardsville, IL 62025</span>
+                            <span>Address: 1001 Enclave Blvd, Edwardsville, IL 62025</span>
                             <span>Call Us: +1-(618)-900-4096</span>
                             <span>Email: support@btostore.com</span>
                         </address>
@@ -378,7 +378,7 @@ const Header = () => {
                 <div className="mobile-contact-info">
                     <address className="address">
                         <img src={logoWhite} alt="logo" />
-                        <span>Address: 502 Cougar Village Apartment Edwardsville, IL 62025</span>
+                        <span>Address: 1001 Enclave Blvd, Edwardsville, IL 62025</span>
                         <span>Call Us: +1-(618)-900-4096</span>
                         <span>Email: support@btostore.com</span>
                     </address>
