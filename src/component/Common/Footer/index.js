@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../../assets/img/logo.png'
 import payment from '../../../assets/img/common/payment.png'
 import { Link } from 'react-router-dom'
+import Maps from '../../Maps/Maps'
 
 const FooterData =[
     {
@@ -41,7 +42,8 @@ const Footer = () => {
                     </div>
                     ))}
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div className="col-lg-3 col-md-6 col-sm-12 col-12 google-maps">
+                    <Maps/>
                 </div> 
             </div>
         </div>

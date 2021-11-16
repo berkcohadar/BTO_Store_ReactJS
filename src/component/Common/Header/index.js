@@ -176,23 +176,6 @@ const Header = () => {
                             <div className="mobile-right-side">
                                 <ul className="header-action-link action-color--black action-hover-color--golden">
                                     <li>
-                                        <a href="#!" className="search_width" onClick={handleSearch}>
-                                            <img src={svgsearch} alt="img" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="offcanvas-toggle" onClick={handleWish}>
-                                            <i className="fa fa-heart"></i>
-                                            <span className="item-count">3</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="offcanvas-toggle" onClick={handleClick}>
-                                            <i className="fa fa-shopping-bag"></i>
-                                            <span className="item-count">4</span>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="#!" className="offcanvas-toggle offside-menu" onClick={handlemenu}>
                                             <i className="fa fa-bars"></i>
                                         </a>

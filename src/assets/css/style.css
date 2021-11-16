@@ -2520,6 +2520,11 @@ button {
     padding-right: 50px;
 }
 
+#footer_one .container .row .google-maps {
+    border: 1px solid black;
+
+}
+
 #mc_embed_signup {
     padding-top: 20px;
 }
@@ -7155,7 +7160,7 @@ padding-top: 30px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 20px;
-    transform: translateY(-185px);
+    /* transform: translateY(-185px); */
 }
 
 .ps-home-banner .ps-container p{
