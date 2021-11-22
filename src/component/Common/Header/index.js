@@ -201,29 +201,15 @@ const Header = () => {
                             <Link to="/"><img src={logoWhite} alt="img" /></Link>
                         </div>
                         <address className="address">
+                            <img src={logoWhite} alt="logo" />
                             <span>Address: 1001 Enclave Blvd, Edwardsville, IL 62025</span>
                             <span>Call Us: +1-(618)-900-4096</span>
                             <span>Email: support@btostore.com</span>
                         </address>
                         <ul className="social-link">
                             <li>
-                                <a href="#!"><i className="fa fa-facebook"></i></a>
+                                <a href="https://www.amazon.com/s?me=AYJYSSPK1VWHC&marketplaceID=ATVPDKIKX0DER"><i className="fa fa-amazon"></i></a>
                             </li>
-                            <li>
-                                <a href="#!"><i className="fa fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#!"><i className="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#!"><i className="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-
-                        <ul className="user-link">
-                            <li><Link to="/wishlist">Wishlist</Link></li>
-                            <li><Link to="/cart">Cart</Link></li>
-                            <li><Link to="/checkout-one">Checkout</Link></li>
                         </ul>
                     </div>
 
