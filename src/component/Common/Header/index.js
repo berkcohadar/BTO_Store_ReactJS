@@ -144,7 +144,7 @@ const Header = () => {
                                             About
                                         </li>
                                         <li>
-                                            <a href="#offcanvas-about" className="offacnvas offside-about offcanvas-toggle" onClick={handleabout}>
+                                            <a className="offacnvas offside-about offcanvas-toggle" onClick={handleabout}>
                                                 <i className="fa fa-bars"></i>
                                             </a>
                                         </li>

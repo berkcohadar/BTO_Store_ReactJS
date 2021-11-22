@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="ps-home-banner ps-home-banner--1">
             <div className="ps-container" style={{ display: 'block' }}>
                                     <img className="ps-img" src={img1} alt={bannerItem.alt} />
-                                    <section><p>Shop Now</p></section>
+                                    <section><a href="https://www.amazon.com/s?me=AYJYSSPK1VWHC&marketplaceID=ATVPDKIKX0DER" target="_blank">Shop Now</a></section>
 
             </div>
             <div className="ps-alttext">
