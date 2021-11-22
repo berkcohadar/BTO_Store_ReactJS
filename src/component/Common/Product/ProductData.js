@@ -77,7 +77,7 @@ export const ProductData = [
     "hover_img":"https://m.media-amazon.com/images/I/81J8c0C94fS.jpg",
     "media":[],
     button: "See on Amazon.com",
-    amazonLink:"https://www.amazon.com/Decorative-Sculptures-Handmade-Oriental-Miraculous/dp/B092G7B27V/ref=sr_1_6?dchild=1&m=AYJYSSPK1VWHC&marketplaceID=ATVPDKIKX0DER&qid=1635536664&s=merchant-items&sr=1-6",
+    amazonLink:"https://www.etsy.com/listing/1124307903/tb-decorative-ladybug-sculptures?ref=listings_manager_grid",
     top_tital:"Hot",
     "para":"TB Decorative Ladybug Sculptures Handmade Wall Art Oriental Design Miraculous for Birthday Gift Outside Baby Room Luck for Kids Women Garden Fence (2)",
     },

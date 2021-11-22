@@ -25,10 +25,7 @@ const Footer = () => {
                         <div className="footer_left_side_icon">
                             <ul>
                                 <li>
-                                    <a href="#!"><i className="fa fa-amazon"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#!"><i className="fa fa-instagram"></i></a>
+                                    <a href="https://www.amazon.com/s?me=AYJYSSPK1VWHC&marketplaceID=ATVPDKIKX0DER"><i className="fa fa-amazon"></i></a>
                                 </li>
                             </ul>
                         </div>
