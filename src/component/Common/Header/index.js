@@ -164,7 +164,7 @@ const Header = () => {
                             <div className="mobile-header-left">
                                 <ul className="mobile-menu-logo">
                                     <li>
-                                        <a href="index.html">
+                                        <a href="#">
                                             <div className="logo">
                                                 <img src={logo} alt="logo" />
                                             </div>
