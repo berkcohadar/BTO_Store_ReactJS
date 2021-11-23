@@ -2,9 +2,6 @@ import React ,{ useState} from 'react'
 import TotalCart from './TotalCart'
 import { Link } from 'react-router-dom'
 
-// Import Img
-import img1 from '../../assets/img/product-image/product1.png'
-
 const CartViewTwo = () => {
     
     const [count, setCount] = useState(0)
@@ -42,7 +39,7 @@ const CartViewTwo = () => {
                                             <tr>
                                                 <td class="product_thumb">
                                                     <Link to="/poduct-details-one">
-                                                        <img src={img1} alt="img" />
+                                                        <img src={null} alt="img" />
                                                     </Link>
                                                 </td>
                                                 <td class="product_name">

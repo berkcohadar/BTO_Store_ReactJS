@@ -1,9 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// Import Img
-import img1 from '../../assets/img/product-image/product1.png'
-import img2 from '../../assets/img/product-image/product2.png'
-import img3 from '../../assets/img/product-image/product3.png'
 
 const Compare = () => {
     return (
@@ -20,21 +16,21 @@ const Compare = () => {
                                                 <td className="first-column">Product</td>
                                                 <td className="product-image-title">
                                                     <Link to="/poduct-details-one" className="image">
-                                                        <img src={img1} alt="Compare_Product" />
+                                                        <img src={null} alt="Compare_Product" />
                                                     </Link>
                                                     <Link to="/shop-left-bar" className="category">Furniture</Link>
                                                     <h5><Link to="/shop-left-bar" className="title">T-Shirt Form Girls</Link></h5>
                                                 </td>
                                                 <td className="product-image-title">
                                                 <Link to="/poduct-details-one" className="image">
-                                                    <img src={img2} alt="Compare Product" />
+                                                    <img src={null} alt="Compare Product" />
                                                 </Link>
                                                     <Link to="/shop-left-bar" className="category">Furniture</Link>
                                                     <h5><Link to="/shop-left-bar" className="title">White Black Line Dress</Link></h5>
                                                 </td>
                                                 <td className="product-image-title">
                                                 <Link to="/poduct-details-one" className="image"><img
-                                                        src={img3}
+                                                        src={null}
                                                         alt="Compare Product" /></Link>
                                                     <Link to="/shop-left-bar" className="category">Furniture</Link>
                                                     <h5><Link to="/shop-left-bar" className="title">Blue Dress For Woman</Link>

@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Img
-import img from '../../assets/img/product-image/product5.png'
 
 const Wishlist = () => {
     return (
@@ -31,7 +29,7 @@ const Wishlist = () => {
                                                 </td>
                                                 <td className="product_thumb">
                                                     <Link to="/poduct-details-one">
-                                                        <img src={img} alt="img" />
+                                                        <img src={null} alt="img" />
                                                     </Link>
                                                 </td>
                                                 <td className="product_name"><Link to="/poduct-details-one">Handbag fringilla</Link></td>

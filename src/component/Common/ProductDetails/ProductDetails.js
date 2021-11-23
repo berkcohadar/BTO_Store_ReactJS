@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import ProductInfo from './ProductInfo'
 import RelatedProduct from './RelatedProduct'
-import img from '../../../assets/img/product-image/product15.png'
 import { Link } from 'react-router-dom'
 
 
@@ -26,9 +25,6 @@ const ProductDetailsOne = () => {
         <div className="container">
             <div className="row area_boxed">
                 <div className="col-lg-4">
-                    <div className="product_single_one_img">
-                            <img src={img} alt="img" />
-                    </div>
                 </div>
                 <div className="col-lg-8">
                     <div className="product_details_right_one">

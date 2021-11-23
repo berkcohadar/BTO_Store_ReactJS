@@ -6,12 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-// Import Img
-import img1 from '../../../assets/img/product-image/product1.png'
-import img2 from '../../../assets/img/product-image/product2.png'
-import img3 from '../../../assets/img/product-image/product3.png'
-import img4 from '../../../assets/img/product-image/product4.png'
-import img5 from '../../../assets/img/product-image/product5.png'
 
 const ProductDetailsTwo = () => {
     // Quenty Inc Dec
@@ -64,19 +58,19 @@ const ProductDetailsTwo = () => {
                     <div className="product_single_two_img slider-for">
                     <Slider {...settings}>
                         <div className="product_img_two_slider">   
-                            <img src={img1} alt="img"/>
+                            <img src={null} alt="img"/>
                         </div>
                         <div className="product_img_two_slider">   
-                            <img src={img2} alt="img"/>
+                            <img src={null} alt="img"/>
                         </div>
                         <div className="product_img_two_slider">   
-                            <img src={img3} alt="img"/>
+                            <img src={null} alt="img"/>
                         </div>
                         <div className="product_img_two_slider">   
-                            <img src={img4} alt="img"/>
+                            <img src={null} alt="img"/>
                         </div>
                         <div className="product_img_two_slider">   
-                            <img src={img5} alt="img"/>
+                            <img src={null} alt="img"/>
                         </div>
                         </Slider>
                     </div>

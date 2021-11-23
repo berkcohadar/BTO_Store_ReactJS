@@ -2519,10 +2519,30 @@ button {
 #footer_one .footer_left_side p {
     padding-right: 50px;
 }
+#footer_one .container .row {
+    margin-top: 20px;
+    justify-content: space-between;
+}
 
+#footer_one .container .row div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+#footer_one .container .one-item {
+    justify-content: center;
+}
+#footer_one .container .one-item a{
+    font-size: xx-large;
+}
 #footer_one .container .row .google-maps {
-    border: 1px solid black;
+    min-height: 300px;
+}
 
+#footer_one .container .one-item .footer_one_widget{
+    display: block;
 }
 
 #mc_embed_signup {

@@ -4,38 +4,8 @@ import logo from '../../../assets/img/logo.png'
 import logoWhite from '../../../assets/img/logo-white.png'
 import { MenuData } from './MenuData'
 import NaveItems from './NaveItems'
-
-// import Img
-import img1 from '../../../assets/img/product-image/product1.png'
-import img2 from '../../../assets/img/product-image/product2.png'
-import img3 from '../../../assets/img/product-image/product3.png'
-import img4 from '../../../assets/img/product-image/product4.png'
 import svg from '../../../assets/img/svg/cancel.svg'
-import svgsearch from '../../../assets/img/svg/search.svg'
 
-// Product Data
-const ProductData = [
-    {
-        img:img1,
-        title:"Car Wheel",
-        price:"$49.00",
-    }, 
-    {
-        img:img2,
-        title:"Car Wheel",
-        price:"$49.00",
-    },
-    {
-        img:img3,
-        title:"Car Wheel",
-        price:"$49.00",
-    },
-    {
-        img:img4,
-        title:"Car Wheel",
-        price:"$49.00",
-    }
-]
 
 const Header = () => {
     const [click, setClick] = useState(false);
@@ -234,94 +204,8 @@ const Header = () => {
                 </div>
             </div>
 
-            <div id="offcanvas-add-cart" className="offcanvas offcanvas-rightside offcanvas-add-cart-section">
-                <div className="offcanvas-header text-right">
-                    <button className="offcanvas-close" onClick={handleClick}>
-                        <img src={svg} alt="icon" />
-                    </button>
-                </div>
-                <div className="offcanvas-add-cart-wrapper">
-                    <h4 className="offcanvas-title">Shopping Cart</h4>
-                    <ul className="offcanvas-cart">
-                    {ProductData.map((data, index)=>(
-                            <li className="offcanvas-wishlist-item-single" key={index}>
-                            <div className="offcanvas-wishlist-item-block">
-                                <a href="#!" className="offcanvas-wishlist-item-image-link" >
-                                    <img src={data.img} alt="img"
-                                        className="offcanvas-wishlist-image" />
-                                </a>
-                                <div className="offcanvas-wishlist-item-content">
-                                    <a href="#!" className="offcanvas-wishlist-item-link">{data.title}</a>
-                                    <div className="offcanvas-wishlist-item-details">
-                                        <span className="offcanvas-wishlist-item-details-quantity">1 x
-                                        </span>
-                                        <span className="offcanvas-wishlist-item-details-price">{data.price}</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="offcanvas-wishlist-item-delete text-right">
-                                <a href="#!" className="offcanvas-wishlist-item-delete"><i className="fa fa-trash"></i></a>
-                            </div>
-                        </li>
-                        ))}            
-                    </ul>
-                    <div className="offcanvas-cart-total-price">
-                        <span className="offcanvas-cart-total-price-text">Subtotal:</span>
-                        <span className="offcanvas-cart-total-price-value">$170.00</span>
-                    </div>
-                    <ul className="offcanvas-cart-action-button">
-                        <li>
-                            <Link to="/cart" className="theme-btn-one btn-black-overlay btn_md">View Cart</Link>
-                        </li>
-                        <li>
-                            <Link to="/checkout-one" className="theme-btn-one btn-black-overlay btn_md">Checkout</Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div id="offcanvas-wishlish" className="offcanvas offcanvas-rightside offcanvas-add-cart-section">
-                <div className="offcanvas-header text-right">
-                    <button className="offcanvas-close" onClick={handleWish}>
-                        <img src={svg} alt="icon" />
-                    </button>
-                </div>
-                <div className="offcanvas-wishlist-wrapper">
-                    <h4 className="offcanvas-title">Wishlist</h4>
-
-                    <ul className="offcanvas-wishlist">
-                        {ProductData.slice(0, 2).map((data, index)=>(
-                            <li className="offcanvas-wishlist-item-single" key={index}>
-                            <div className="offcanvas-wishlist-item-block">
-                                <a href="#!" className="offcanvas-wishlist-item-image-link" >
-                                    <img src={data.img} alt="img"
-                                        className="offcanvas-wishlist-image" />
-                                </a>
-                                <div className="offcanvas-wishlist-item-content">
-                                    <a href="#!" className="offcanvas-wishlist-item-link">{data.title}</a>
-                                    <div className="offcanvas-wishlist-item-details">
-                                        <span className="offcanvas-wishlist-item-details-quantity">1 x
-                                        </span>
-                                        <span className="offcanvas-wishlist-item-details-price">{data.price}</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="offcanvas-wishlist-item-delete text-right">
-                                <a href="#!" className="offcanvas-wishlist-item-delete"><i className="fa fa-trash"></i></a>
-                            </div>
-                        </li>
-                        ))}
-                    </ul>
-                    <ul className="offcanvas-wishlist-action-button">
-                        <li>
-                            <Link to="/wishlist" className="theme-btn-one btn-black-overlay btn_md">View wishlist</Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
             <div id="search" className="search-modal">
-                <button type="button" className="close" onClick={handleSearch}><img src={svg} alt="icon" /></button>
+                <button type="button" className="close" onClick={handleSearch}><img src={null} alt="icon" /></button>
                 <form>
                     <input type="search" placeholder="type keyword(s) here" />
                     <button type="submit" className="btn btn-lg btn-golden">Search</button>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img1 from  '../../assets/img/product-image/product1.png'
+
 const AddProduct = () => {
 
     return (
@@ -18,7 +18,7 @@ const AddProduct = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="image-input">
-                                        <img src={img1} className="image-preview"
+                                        <img src={null} className="image-preview"
                                             alt="img" />
                                         <input type="file" accept="image/*" id="imageInput" />
                                         <label htmlFor="imageInput" className="image-button">

@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import Modal from 'react-bootstrap/Modal';
-import img1 from '../../../assets/img/product-image/product1.png'
 const  MyVerticallyCenteredModal=(props) => {
     const [count, setCount] = useState(0)
     const incNum=()=>{
@@ -28,9 +27,6 @@ const  MyVerticallyCenteredModal=(props) => {
                 <div id="product_slider_one">
                     <div className="row">
                         <div className="col-lg-5 col-md-6 col-sm-12 col-12">
-                            <div className="products_modal_sliders">
-                                <img src={img1} alt="img" />
-                            </div>
                         </div>
                         <div className="col-lg-7 col-md-6 col-sm-12 col-12">
                             <div className="modal_product_content_one">
