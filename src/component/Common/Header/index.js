@@ -197,9 +197,6 @@ const Header = () => {
                 </div>
                 <div className="offcanvas-mobile-menu-wrapper">
                     <div className="mobile-contact-info">
-                        <div className="logo">
-                            <Link to="/"><img src={logoWhite} alt="img" /></Link>
-                        </div>
                         <address className="address">
                             <img src={logoWhite} alt="logo" />
                             <span>Address: 1001 Enclave Blvd, Edwardsville, IL 62025</span>
