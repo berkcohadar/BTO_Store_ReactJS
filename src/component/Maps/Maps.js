@@ -25,8 +25,8 @@ export class Maps extends Component {
     }
 }
 
-// export default GoogleApiWrapper({apiKey: ("AIzaSyBptIIGvmoWsn3ZJyRvT46VW2zFRbBRTic")})(Maps);
+// export default GoogleApiWrapper({apiKey: ("AIzaSyDL6BZcb0iaAFuJEob4CHtc9bfQbWHNfsA")})(Maps);
 
 export default GoogleApiWrapper({
-    apiKey: ("AIzaSyDHJJeT63L7M-WuqTJry61eiDTtgQiM9GU")
+    apiKey: ("AIzaSyDL6BZcb0iaAFuJEob4CHtc9bfQbWHNfsA")
    })(Maps);
