@@ -7180,7 +7180,7 @@ padding-top: 30px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 20px;
-    /* transform: translateY(-185px); */
+    transform: translateY(-20%); 
 }
 
 .ps-home-banner .ps-container a{

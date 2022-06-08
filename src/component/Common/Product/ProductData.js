@@ -34,8 +34,8 @@ export const ProductData = [
     "id":2,
     "product_title":"Decoration Floating Citronella Candles",
     "price":"$18.99",
-    "main_img":"https://m.media-amazon.com/images/I/41gGGmW1qQS.jpg",
-    "hover_img":"https://m.media-amazon.com/images/I/41gGGmW1qQS.jpg",
+    "main_img":"https://i.etsystatic.com/32938160/r/il/d6512a/3571544890/il_794xN.3571544890_5vxf.jpg",
+    "hover_img":"https://i.etsystatic.com/32938160/r/il/d6512a/3571544890/il_794xN.3571544890_5vxf.jpg",
     top_tital:"Hot",
     "media":[],
     button: "See on Amazon.com",
@@ -76,7 +76,7 @@ export const ProductData = [
     "main_img":"https://m.media-amazon.com/images/I/81J8c0C94fS.jpg",
     "hover_img":"https://m.media-amazon.com/images/I/81J8c0C94fS.jpg",
     "media":[],
-    button: "See on Amazon.com",
+    button: "See on Etsy.com",
     amazonLink:"https://www.etsy.com/listing/1124307903/tb-decorative-ladybug-sculptures?ref=listings_manager_grid",
     top_tital:"Hot",
     "para":"TB Decorative Ladybug Sculptures Handmade Wall Art Oriental Design Miraculous for Birthday Gift Outside Baby Room Luck for Kids Women Garden Fence (2)",
@@ -94,4 +94,34 @@ export const ProductData = [
     amazonLink:"https://www.amazon.com/Decoration-Scented-Candles-Premium-Aromatherapy/dp/B09CP28BJT/ref=sr_1_3?dchild=1&m=AYJYSSPK1VWHC&marketplaceID=ATVPDKIKX0DER&qid=1635536664&s=merchant-items&sr=1-3&th=1",
     "para":"Tb Decoration Manly Scented Candles Premium Soy Wax Aromatherapy Candles Smoky Clove in Luxury Black Box and Jar Home Decor for Man and Women (Clove & Smoke)",
     },
+    {
+        "id":7,
+    "product_title":"Porcelain Appetizer Serving Tray",
+    "price":"$65.00",
+    "main_img":"https://i.etsystatic.com/32938160/r/il/af3579/3814064742/il_794xN.3814064742_44tw.jpg",
+    "hover_img":"https://i.etsystatic.com/32938160/r/il/af3579/3814064742/il_794xN.3814064742_44tw.jpg",
+    "media":[],
+    button:"See on Etsy.com",
+    top_tital:"Hot",
+    amazonLink:"https://www.etsy.com/listing/1216690863/porcelain-appetizer-serving-tray-with-8?click_key=23720210f25bdb678def81a4d39562411c1e96c9%3A1216690863&click_sum=c4a8d557&rec_type=ss&ref=landingpage_similar_listing_top-1&frs=1",
+    "para":"Porcelain Appetizer Serving Tray with 8 Compartments Divided Authentic Colorful and Handmade Tile Serving Relish Platter-Bowls"
+        
+    //Cooking Clay Bowl 
+
+
+    },
+    {
+        "id":8,
+    "product_title":"Cooking Clay Bowl",
+    "price":"$22.99",
+    "main_img":"https://i.etsystatic.com/32938160/r/il/14cab7/3788150171/il_794xN.3788150171_6jm5.jpg",
+    "hover_img":"https://i.etsystatic.com/32938160/r/il/14cab7/3788150171/il_794xN.3788150171_6jm5.jpg",
+    "media":[],
+    button:"See on Etsy.com",
+    top_tital:"Hot",
+    amazonLink:"https://www.etsy.com/listing/1183536932/cooking-clay-bowl-set-6pcs-oven-bake?click_key=c7a15de075ffb0108c93b33552c9830ed85a8659%3A1183536932&click_sum=188ce1b9&rec_type=ss&ref=landingpage_similar_listing_top-8&frs=1.etsy.com/listing/1216690863/porcelain-appetizer-serving-tray-with-8?click_key=23720210f25bdb678def81a4d39562411c1e96c9%3A1216690863&click_sum=c4a8d557&rec_type=ss&ref=landingpage_similar_listing_top-1&frs=1",
+    "para":"Cooking Clay Bowl Set 6pcs Oven Bake Terracotta Ancient, Serving for Cooking Appetizer Snack Cereal Traditional Turkish Mexican Casseroles"
+
+    }
+
 ]

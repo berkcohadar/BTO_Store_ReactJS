@@ -20,6 +20,9 @@
     .cookie-bar p{
         font-size: 14px;
     }
+    .ps-home-banner .ps-container .ps-img {
+        transform: translateY(-5%); 
+    }
 }
 
 @media (max-width: 1199px) {
@@ -30,9 +33,23 @@
     #countdown_two li {
         margin-left: 20px;
     }
+    .ps-home-banner .ps-container a{
+        bottom: 12%;
+    }
+    .ps-home-banner .ps-container .ps-img {
+        transform: translateY(5%); 
+    }
 }
 
 @media (max-width: 992px) {
+    .ps-home-banner .ps-container a{
+        bottom: 45vh;
+        width: 120px;
+    }
+    .ps-home-banner .ps-container .ps-img {
+        transform: translateY(5%); 
+    }
+
     .theme-invoice-4 .invoice-wrapper .invoice-footer ul li h4 {
         line-height: 24px;
         font-size: 14px;
@@ -141,6 +158,13 @@ padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
+    .ps-home-banner .ps-container a{
+        bottom: 55vh;
+        width: 100px;
+    }
+    .ps-home-banner .ps-container .ps-img {
+        transform: translateY(5%); 
+    }
     .tabs_center_button .nav-tabs li a {
         margin-left: 25px;
         padding-bottom:2px;
@@ -365,6 +389,7 @@ padding-bottom: 30px;
 }
 
 @media (max-width: 480px) {
+
     #countdown_two ul {
         display: inline-table;
     }
@@ -400,6 +425,11 @@ padding-bottom: 30px;
 }
 
 @media (max-width: 361px) {
+    .ps-home-banner .ps-container a{
+        bottom: 55vh;
+        right: 18%;
+        width: 120px;
+    }
     .mobile-menu-logo .logo {
         width: 100px;
         overflow: hidden;
