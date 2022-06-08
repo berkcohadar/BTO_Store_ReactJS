@@ -23,6 +23,7 @@ export class Maps extends Component {
             </div>
         );
     }
+    
 }
 
 // export default GoogleApiWrapper({apiKey: ("AIzaSyDL6BZcb0iaAFuJEob4CHtc9bfQbWHNfsA")})(Maps);
